@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7A68C67E1F72D7A300ADF20A"
+               BuildableName = "MyFirstView Project.app"
+               BlueprintName = "MyFirstView Project"
+               ReferencedContainer = "container:MyFirstView Project.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7A68C6921F72D7A300ADF20A"
+               BuildableName = "MyFirstView ProjectTests.xctest"
+               BlueprintName = "MyFirstView ProjectTests"
+               ReferencedContainer = "container:MyFirstView Project.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7A68C69D1F72D7A300ADF20A"
+               BuildableName = "MyFirstView ProjectUITests.xctest"
+               BlueprintName = "MyFirstView ProjectUITests"
+               ReferencedContainer = "container:MyFirstView Project.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7A68C67E1F72D7A300ADF20A"
+            BuildableName = "MyFirstView Project.app"
+            BlueprintName = "MyFirstView Project"
+            ReferencedContainer = "container:MyFirstView Project.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7A68C67E1F72D7A300ADF20A"
+            BuildableName = "MyFirstView Project.app"
+            BlueprintName = "MyFirstView Project"
+            ReferencedContainer = "container:MyFirstView Project.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7A68C67E1F72D7A300ADF20A"
+            BuildableName = "MyFirstView Project.app"
+            BlueprintName = "MyFirstView Project"
+            ReferencedContainer = "container:MyFirstView Project.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
