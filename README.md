@@ -1,4 +1,4 @@
-# example1-appdevclass
+# :no_entry: [DEPRECATED] example1-appdevclass
 An example xCode project used to teach xCode app development. A simple app displaying a two views within a navigation controller.
 
 
